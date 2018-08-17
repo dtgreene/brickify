@@ -197,12 +197,14 @@ void draw()  {
     float w = convertedImage.width * currentZoom;
     float h = convertedImage.height  * currentZoom;
     if(mouseX > displayPosition.x && mouseX < displayPosition.x + w && mouseY > displayPosition.y && mouseY < displayPosition.y + h)  {
-      cursor(MOVE);
-      if(mousePressed)  {
-        if(!draggingImage)  {
-          draggingPosition.x = mouseX - displayPosition.x;
-          draggingPosition.y = mouseY - displayPosition.y;
-          draggingImage = true; 
+      if(mouseY > 100)  {
+        cursor(MOVE);
+        if(mousePressed)  {
+          if(!draggingImage)  {
+            draggingPosition.x = mouseX - displayPosition.x;
+            draggingPosition.y = mouseY - displayPosition.y;
+            draggingImage = true; 
+          }
         }
       }
     }  else  {
