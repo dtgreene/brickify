@@ -148,7 +148,7 @@ void setup()  {
   //float mixFactor = map(brightness(color(100, 204, 0)), 0, 255, 0.2, 0.8);
   //println(brightness(color(100, 204, 0)));
   
-  legoBrick = loadImage("lego2.png");
+  legoBrick = loadImage("lego.png");
   
   myButtons.add(new Button(15, 15, "Load Image", 100, 25, 0, "load"));
   myButtons.add(new Button(15, 45, "Save", 100, 25, 0, "save"));
