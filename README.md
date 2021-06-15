@@ -4,6 +4,3 @@
 Easily turn images into lego bricks/pixels with an option to use only official Lego colors. There's also an option to just pixelate the image as well.  Built using [Processing](https://processing.org/)
 
 To get the project up and running, just download the project (brickify.pde and lego2.png) to a folder named brickify and open in processing.
-
-Pull requests welcome :)
-
